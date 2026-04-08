@@ -1,0 +1,26 @@
+{
+	"id": "rundowncreator",
+	"name": "Rundown Creator",
+	"shortname": "RundownCreator",
+	"manufacturer": "Rundown Creator, Inc.",
+	"description": "Control Rundown Creator broadcast rundown software via its REST API, with integrated Stagetimer.io support for automatic rundown loading and timer control.",
+	"products": ["Rundown Creator"],
+	"keywords": ["broadcast", "rundown", "news", "production", "on-air", "stagetimer"],
+	"version": "0.0.0",
+	"license": "MIT",
+	"legacyIds": [],
+	"repository": "https://github.com/upy77/companion-module-rundowncreator",
+	"bugs": "https://github.com/upy77/companion-module-rundowncreator/issues",
+	"maintainers": [
+		{
+			"name": "Derek Self",
+			"email": "derekself77@gmail.com"
+		}
+	],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../main.js"
+	}
+}
